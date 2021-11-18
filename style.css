@@ -5,7 +5,7 @@
   outline: 0;
 }
 body{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   user-select: none;
   transition: 500ms;
@@ -101,9 +101,10 @@ h1{
   flex-shrink: 1;
   flex-grow: 0;
   border-radius: 3rem;
-  cursor: pointer;
+  transition: 450ms;
 }
 .palette .color:hover{
+  cursor: pointer;
   transform: scale(1.05);
 }
 .palette .color:active{
